@@ -31,7 +31,7 @@ const Footer = () => {
               <div className="w-10 h-10 bg-gradient-to-br from-primary-400 to-primary-600 rounded-lg flex items-center justify-center">
                 <Briefcase className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold">ProNetwork</span>
+              <span className="text-xl font-bold">Codefolio</span>
             </Link>
             <p className="text-secondary-400 max-w-md">
               Your comprehensive platform for professional networking success. Build stunning resumes,
@@ -89,7 +89,7 @@ const Footer = () => {
 
         <div className="border-t border-secondary-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-secondary-400 text-sm">
-            {currentYear} ProNetwork. All rights reserved.
+            {currentYear} Codefolio. All rights reserved.
           </p>
           <p className="text-secondary-400 text-sm flex items-center mt-4 md:mt-0">
             Made with <Heart className="w-4 h-4 mx-1 text-red-500" /> for professionals worldwide

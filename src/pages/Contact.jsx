@@ -34,7 +34,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email Us',
-      content: 'support@pronetwork.com',
+      content: 'support@codefolio.com',
       description: 'We typically respond within 24 hours',
     },
     {

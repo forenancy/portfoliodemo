@@ -56,7 +56,7 @@ const About = () => {
   ];
 
   const milestones = [
-    { year: '2020', title: 'Founded', description: 'ProNetwork was born from a passion to help professionals succeed.' },
+    { year: '2020', title: 'Founded', description: 'Codefolio was born from a passion to help professionals succeed.' },
     { year: '2021', title: '10K Users', description: 'Reached our first 10,000 users and launched the Resume Builder.' },
     { year: '2022', title: 'LinkedIn Guide', description: 'Launched our comprehensive LinkedIn optimization guide.' },
     { year: '2023', title: '100K Resumes', description: 'Over 100,000 resumes created using our platform.' },
@@ -80,7 +80,7 @@ const About = () => {
               Empowering Professionals to <span className="text-gradient">Achieve More</span>
             </h1>
             <p className="text-lg text-secondary-600 mb-8">
-              ProNetwork was founded with a simple mission: to provide everyone with the tools and
+              Codefolio was founded with a simple mission: to provide everyone with the tools and
               knowledge they need to build successful careers. We believe that professional development
               shouldn't be limited by resources or connections.
             </p>
@@ -109,7 +109,7 @@ const About = () => {
             <div>
               <h2 className="section-title">Our Story</h2>
               <p className="text-secondary-600 mb-6">
-                ProNetwork started in 2020 when our founder, Sarah Chen, noticed a significant gap in
+                Codefolio started in 2020 when our founder, Sarah Chen, noticed a significant gap in
                 the professional development space. After years of working as a recruiter at top tech
                 companies, she saw countless talented professionals struggle not because they lacked
                 skills, but because they didn't know how to present themselves effectively.
@@ -162,7 +162,7 @@ const About = () => {
           <div className="text-center mb-12">
             <h2 className="section-title">Our Values</h2>
             <p className="section-subtitle max-w-2xl mx-auto">
-              These core values guide everything we do at ProNetwork.
+              These core values guide everything we do at Codefolio.
             </p>
           </div>
 
@@ -186,7 +186,7 @@ const About = () => {
           <div className="text-center mb-12">
             <h2 className="section-title">Our Journey</h2>
             <p className="section-subtitle max-w-2xl mx-auto">
-              Key milestones in ProNetwork's growth.
+              Key milestones in Codefolio's growth.
             </p>
           </div>
 
@@ -245,7 +245,7 @@ const About = () => {
             Ready to Transform Your Career?
           </h2>
           <p className="text-lg text-primary-100 mb-8 max-w-2xl mx-auto">
-            Join thousands of professionals who have accelerated their careers with ProNetwork.
+            Join thousands of professionals who have accelerated their careers with Codefolio.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

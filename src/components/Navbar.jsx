@@ -26,7 +26,7 @@ const Navbar = () => {
               <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
                 <Briefcase className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-gradient">ProNetwork</span>
+              <span className="text-xl font-bold text-gradient">Codefolio</span>
             </Link>
           </div>
 
