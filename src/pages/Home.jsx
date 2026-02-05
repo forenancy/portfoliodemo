@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import Hero from '../components/Hero';
 import {
   Target, Award, TrendingUp, CheckCircle, ArrowRight,
-  BookOpen, Zap, Shield, Clock
+  BookOpen, Zap, Clock
 } from 'lucide-react';
 
 const Home = () => {
@@ -21,11 +21,6 @@ const Home = () => {
       icon: TrendingUp,
       title: 'Track Your Progress',
       description: 'Monitor your networking growth and career development milestones.',
-    },
-    {
-      icon: Shield,
-      title: 'Privacy First',
-      description: 'Your data and career information are always secure and private.',
     },
   ];
 
@@ -75,7 +70,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {features.map((feature, index) => (
               <div key={index} className="text-center group">
                 <div className="w-16 h-16 bg-primary-100 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:bg-primary-600 transition-colors duration-300">
