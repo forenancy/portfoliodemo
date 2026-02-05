@@ -54,22 +54,10 @@ const Home = () => {
 
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      role: 'Software Engineer at Google',
-      content: 'Codefolio helped me land my dream job. The LinkedIn optimization guide was a game-changer!',
-      avatar: 'SJ',
-    },
-    {
-      name: 'Michael Chen',
-      role: 'Product Manager at Meta',
-      content: 'The resume builder is incredibly intuitive. I received more callbacks within a week of updating my resume.',
-      avatar: 'MC',
-    },
-    {
-      name: 'Emily Rodriguez',
-      role: 'Marketing Director',
-      content: 'The networking tips helped me build valuable connections that accelerated my career growth.',
-      avatar: 'ER',
+      name: 'Guillermo Zendejas',
+      role: 'CTI Student',
+      content: "CTI's problem solving curriculum, open source software development experience, resume workshops, application tracking, mentor relationship and the internship search sessions connected me to the computing profession very early on in my college journey.",
+      avatar: 'GZ',
     },
   ];
 
@@ -136,11 +124,11 @@ const Home = () => {
           <div className="text-center mb-16">
             <h2 className="section-title">Success Stories</h2>
             <p className="section-subtitle max-w-2xl mx-auto">
-              Join thousands of professionals who have transformed their careers with Codefolio.
+              In today's competitive job market, it's essential to update your resume and LinkedIn profile to stay competitive. See how our resources have helped students succeed.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-1 gap-8 max-w-3xl mx-auto">
             {testimonials.map((testimonial, index) => (
               <div key={index} className="card">
                 <div className="flex items-center mb-4">

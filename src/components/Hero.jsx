@@ -26,9 +26,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-secondary-600 mb-8 max-w-xl mx-auto lg:mx-0">
-              Master the art of professional networking with our comprehensive tools.
-              Create stunning resumes, optimize your LinkedIn presence, and unlock
-              career opportunities.
+              In today's competitive job market, it's essential to update your resume and LinkedIn profile to stay competitive. Master the art of professional networking with our comprehensive tools and unlock career opportunities.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
