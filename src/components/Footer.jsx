@@ -89,10 +89,10 @@ const Footer = () => {
 
         <div className="border-t border-secondary-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-secondary-400 text-sm">
-            {currentYear} Codefolio. All rights reserved.
+            {currentYear} Computing Talent Initiative. All rights reserved.
           </p>
           <p className="text-secondary-400 text-sm flex items-center mt-4 md:mt-0">
-            Made with <Heart className="w-4 h-4 mx-1 text-red-500" /> for professionals worldwide
+            Made with <Heart className="w-4 h-4 mx-1 text-red-500" /> for aspiring tech professionals
           </p>
         </div>
       </div>

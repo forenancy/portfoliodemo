@@ -34,20 +34,14 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email Us',
-      content: 'support@codefolio.com',
+      content: 'student_assistant@computingtalentinitiative.org',
       description: 'We typically respond within 24 hours',
     },
     {
-      icon: Phone,
-      title: 'Call Us',
-      content: '+1 (555) 123-4567',
-      description: 'Mon-Fri, 9am-6pm EST',
-    },
-    {
       icon: MapPin,
-      title: 'Visit Us',
-      content: '123 Career Street',
-      description: 'San Francisco, CA 94102',
+      title: 'Organization',
+      content: 'Computing Talent Initiative',
+      description: 'Empowering the next generation of tech talent',
     },
   ];
 
@@ -89,7 +83,7 @@ const Contact = () => {
         </div>
 
         {/* Contact Cards */}
-        <div className="grid md:grid-cols-3 gap-6 mb-12">
+        <div className="grid md:grid-cols-2 gap-6 mb-12 max-w-2xl mx-auto">
           {contactInfo.map((info, index) => (
             <div key={index} className="bg-white rounded-xl shadow-lg p-6 text-center">
               <div className="w-14 h-14 bg-primary-100 rounded-xl flex items-center justify-center mx-auto mb-4">
