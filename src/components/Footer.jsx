@@ -11,7 +11,6 @@ const Footer = () => {
       { name: 'Networking Tips', path: '/networking' },
     ],
     company: [
-      { name: 'About Us', path: '/about' },
       { name: 'Contact', path: '/contact' },
     ],
     social: [

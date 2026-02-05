@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Briefcase, FileText, Linkedin, Users, Mail, Info } from 'lucide-react';
+import { Menu, X, Briefcase, FileText, Linkedin, Users, Mail } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +11,6 @@ const Navbar = () => {
     { name: 'Resume Builder', path: '/resume', icon: FileText },
     { name: 'LinkedIn Guide', path: '/linkedin-guide', icon: Linkedin },
     { name: 'Networking Tips', path: '/networking', icon: Users },
-    { name: 'About', path: '/about', icon: Info },
     { name: 'Contact', path: '/contact', icon: Mail },
   ];
 

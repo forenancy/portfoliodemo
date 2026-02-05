@@ -5,7 +5,6 @@ import Home from './pages/Home';
 import Resume from './pages/Resume';
 import LinkedInGuide from './pages/LinkedInGuide';
 import Networking from './pages/Networking';
-import About from './pages/About';
 import Contact from './pages/Contact';
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
             <Route path="/resume" element={<Resume />} />
             <Route path="/linkedin-guide" element={<LinkedInGuide />} />
             <Route path="/networking" element={<Networking />} />
-            <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
