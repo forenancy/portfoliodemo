@@ -69,9 +69,9 @@ const Home = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="section-title">Why Choose Codefolio?</h2>
+            <h2 className="section-title">What's in it for you?</h2>
             <p className="section-subtitle max-w-2xl mx-auto">
-              We provide comprehensive tools and resources to help you succeed in your professional journey.
+              Discover the tools and resources designed to help you succeed in your professional journey.
             </p>
           </div>
 
