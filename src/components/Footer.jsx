@@ -15,7 +15,7 @@ const Footer = () => {
       { name: 'Contact', path: '/contact' },
     ],
     social: [
-      { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com' },
+      { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/company/computing-talent-initiative/' },
       { name: 'Twitter', icon: Twitter, url: 'https://twitter.com' },
       { name: 'GitHub', icon: Github, url: 'https://github.com' },
     ],

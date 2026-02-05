@@ -65,7 +65,7 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: Linkedin, name: 'LinkedIn', url: 'https://linkedin.com' },
+    { icon: Linkedin, name: 'LinkedIn', url: 'https://www.linkedin.com/company/computing-talent-initiative/' },
     { icon: Twitter, name: 'Twitter', url: 'https://twitter.com' },
     { icon: Github, name: 'GitHub', url: 'https://github.com' },
   ];
